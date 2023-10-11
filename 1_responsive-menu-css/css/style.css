@@ -1,0 +1,45 @@
+img {
+    width: 100%;
+}
+
+/* MOBILE FIRST */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu img {
+    width: 140px;
+}
+
+.menu .navicon {
+    width: 40px;
+}
+
+.menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu nav li {
+    margin-right: 5px;
+}
+
+
+@media screen and (min-width: 650px) {
+
+    .menu nav {
+        display: block;
+    }
+
+    .menu .navicon {
+        display: none;
+    }
+}
